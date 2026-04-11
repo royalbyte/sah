@@ -2,15 +2,16 @@
 #define SAH_H
 
 /*
- * SAH is implemented both to Linux and Windows
+ * SAH is implemented both on Linux and NT
  * to reach your desired version jump or filter
  * between "__unix__" or "_WIN32"
  *
  * current status:
  * Linux	Ready
  * Windows	Ready
+ * OS X		Void
  *
- * @creator := royalbyte (0x7C00)
+ * @creator := Rafaes (doraibu)
  * */
 
 #ifdef __unix__
