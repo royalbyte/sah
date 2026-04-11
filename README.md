@@ -72,6 +72,7 @@ To use SAH, define `SAH_IMPLEMENTATION` in exactly one translation unit before i
 |----------|---------|
 | Linux    | Ready   |
 | NT       | Ready   |
+| OS X     | Void    |
 
 On Linux, SAH uses `mmap` and `mprotect`. On Windows, SAH uses `VirtualAlloc` and `VirtualProtect`. The API is identical on both platforms.
 
