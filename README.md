@@ -82,4 +82,4 @@ BSD-3-Clause / Public Domain
 
 ## Observation
 
-SAH is a personal project, written for learning and enjoyment. It is experimental and should be treated as such. Use in production at your own discretion.
+SAH is a personal project, written for enjoyment and because I wanted a stack based allocator, as of now it can only create normal stacks, but on the future I will implement dynamic stacks, Forth size stacks (only bytes in size/size of a word or instruction) to people who want to make Forth-based programs, virtual stacks which are stacks that only live on a certain context and have weird capabilities like being able to pass the stack via function parameters (yes, this sound strange, but my mind is strange...) and other things. Overall SAH is experimental and should be treated as such. Use in production at your own discretion.
